@@ -1,8 +1,8 @@
-# Property Testing Skill
+# Property-Based Testing Skill
 
-[![Download Skill](https://img.shields.io/badge/Download-property--testing.skill-blue?style=for-the-badge)](https://github.com/nyxandro/property-testing-skill/raw/main/dist/property-testing.skill)
+[![Download Property-Based Testing Skill](https://img.shields.io/badge/Download-property--testing.skill-blue?style=for-the-badge)](https://github.com/nyxandro/property-testing-skill/raw/main/dist/property-testing.skill)
 
-A skill for Claude Code and OpenCode: property-based tests with fast-check in TypeScript
+A property-based testing skill for Claude Code and OpenCode: fast-check in TypeScript
 (Vitest) and Hypothesis in Python (pytest). An example test checks the inputs someone thought
 of; a property test states what must hold for every input, lets the library generate hundreds
 of inputs, and shrinks the one that breaks the statement to the smallest case. The first real

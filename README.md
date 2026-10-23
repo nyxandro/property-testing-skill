@@ -43,6 +43,17 @@ property tests that may assert nothing.
 
 ## Install
 
+**Claude Code, as a plugin**, from [nyxandro/skills](https://github.com/nyxandro/skills), the
+catalog of my skills:
+
+```text
+/plugin install property-testing --marketplace nyxandro/skills
+```
+
+Use one way or the other: with both, Claude Code loads the skill twice.
+
+**Any agent, as a skill folder:**
+
 Download `dist/property-testing.skill` (the badge above) and unpack it into the skills folder
 of your agent, or clone this repository and link the `property-testing/` folder there. No
 scripts, no build step.
